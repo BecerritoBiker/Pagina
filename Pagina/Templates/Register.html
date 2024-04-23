@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="Css/login.css">
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Registro</h1>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input id="newuser" type="email" required>
+                <label for="newuser">Usuario</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input id="newpassword" type="password" required>
+                <label for="newpassword">Contraseña</label>
+            </div>
+            <button id="registerbtn">Registrarse</button>
+        </form>
+    <script type="module" src="/Pagina/Controllers/UserRegister.js"></script>
+    </section>
+</body>
+</html>
